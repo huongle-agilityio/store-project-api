@@ -46,6 +46,9 @@
       "relation": "manyToOne",
       "target": "api::store.store",
       "inversedBy": "products"
+    },
+    "additionalDetails": {
+      "type": "json"
     }
   }
 }
